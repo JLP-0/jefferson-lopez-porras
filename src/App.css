@@ -1,0 +1,53 @@
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  
+}
+
+html, body { 
+    width: 100%; 
+    height: 100%;
+    margin: 0; 
+    padding: 0;
+    background: #000000;
+  }
+  
+  svg {
+    position: absolute;
+    width: 180px;
+    height: 120px;
+    top: 0; right: 0;
+    bottom: 0; left: 0; 
+    margin: auto;
+  }
+  
+  svg #plug,
+  svg #socket {
+    fill:#e5e5e5;
+  }
+  
+  svg #loop-normal {
+    fill: none;
+    stroke: #e5e5e5;
+    stroke-width: 12;
+  }
+  
+  svg #loop-offset {
+    display: none;
+  }
+  
+  .credit {
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .credit a {
+    color: #e5e5e5;
+    font: 800 75% "Open Sans", sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
